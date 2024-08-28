@@ -1,0 +1,71 @@
+.calculator-container-bg-color{
+    background: linear-gradient(45deg, #000000 25%, #091e30 50%, #000000 75%, #000000 100%);    
+}
+
+.container-calculator{
+    display: flex;
+    align-content: center;
+    height: 100vh;
+}
+
+.calculator-body {
+    background: linear-gradient(45deg, #131f2c 0%, #1b314b 25%, #1e3e64 50%, #1b314b 75%, #131f2c 100%);
+    box-shadow: 6px 6px 8px 0px #17334d;
+    border-radius: 10px;
+    width: 310px;
+    position: relative;
+}
+
+.calculator-display{
+    background-color: rgb(17, 17, 17);
+    box-shadow: inset 0px 0px 6px rgba(92, 89, 89, 0.315);
+    margin: 20px 8px;
+    padding: 0px 15px;
+    width: 95%;
+    height: 80px;
+    border: none;
+    text-align: end;
+    font-size: 50px;
+    color: white;
+}
+
+.btn-grp-1 > input,
+.btn-grp-2 > input,
+.btn-grp-3 > input,
+.btn-grp-4 > input,
+.btn-grp-5 > input{
+    background-color: rgb(17, 17, 17);
+    width: 19.6%;
+    padding: 10px;
+    margin: 6px;
+    font-size: 20px;
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.623);
+}
+
+.equal{
+    width: 45.4% !important;
+}
+
+.opreator{
+    color: rgb(0, 174, 255) !important;
+}
+
+input[type="button"].active {
+    background-color: #555;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transform: scale(0.95);
+}
+
+.res-box{
+    background-color: #3b3b3b;
+    padding-top: 15px;
+    padding-bottom: 1px;
+}
+
+.history {
+    max-height: 87.7vh;
+    overflow-y: auto;
+}
